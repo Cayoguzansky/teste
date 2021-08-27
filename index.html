@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <title>EDUCAS</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+        <section class="section" id="home">
+            <div class="gradient"></div>
+
+            <header>
+                <a href="#home"><img src="img/Logo.png" class="logo"></a>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#newsletter">Newsletter</a></li>
+                    <li><a href="#new">Novo</a></li>
+                    <li><a href="#membro">Membros</a></li>
+                </ul>
+            </header>
+            
+            <div class="content">
+                <div class="textBox">
+                    <h2>Educando na<br><span>Prática</span></h2>
+                    <p>Somos a EDuca, que significa educação em casa, e estamos criando um site que vai ajudar discentes do curso técnico integrado ao ensino médio para que consigam melhorar a aprendizagem no ensino remoto e adaptar ao ensino híbrido através de kits educacionais, com o intuito de tornar as aulas on-line mais dinâmicas e práticas, além de apoio psicológico e ferramentas inovadoras para facilitar o estudo do aluno.</p>
+                    <a href="#newsletter" class="button">Saiba mais +</a>
+                </div>
+                <div class="imgBox">
+                    <img src="img/card1.svg" class="kit imgCard">
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="img/card1.svg" onclick="imgSlider('img/card1.svg');changeBgColor('linear-gradient(165deg,rgb(240, 0, 0),rgb(255, 250, 50))')"></li>
+                <li><img src="img/card2.svg" onclick="imgSlider('img/card2.svg');changeBgColor('linear-gradient(165deg,rgb(244, 3, 209),rgb(61, 161, 243))')"></li>
+                <li><img src="img/card3.svg" onclick="imgSlider('img/card3.svg');changeBgColor('linear-gradient(165deg,rgb(33, 150, 243),rgb(36, 255, 114))')"></li>
+            </ul>
+            <ul class="sci">
+                <li><a href="#"><img src="img/facebook.png"></a></li>
+                <li><a href="#"><img src="img/instagram.png"></a></li>
+                <li><a href="#"><img src="img/twitter.png"></a></li>
+    
+            </ul>
+        </section>
+
+        <div class="divider1"></div>
+
+        <section class="section" id="shop">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide">
+                    <div class="cardShop">
+                        <div class="imgBx">
+                            <img src="/img/img1.png">
+                            <h2>kit 1</h2>
+                        </div>
+                        <div class="buy">
+                            <a href="#">Comprar</a>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="cardShop">
+                        <div class="imgBx">
+                            <img src="/img/img2.png">
+                            <h2>kit 2</h2>
+                        </div>
+                        <div class="buy">
+                            <a href="#">Comprar</a>
+                        </div>
+                    </div>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="cardShop">
+                        <div class="imgBx">
+                            <img src="/img/img3.png">
+                            <h2>kit 3</h2>
+                        </div>
+                        <div class="buy">
+                            <a href="#">Comprar</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="cardShop">
+                        <div class="imgBx">
+                            <img src="/img/img4.png">
+                            <h2>kit 4</h2>
+                        </div>
+                        <div class="buy">
+                            <a href="#">Comprar</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="cardShop">
+                        <div class="imgBx">
+                            <img src="/img/img5.png">
+                            <h2>kit 5</h2>
+                        </div>
+                        <div class="buy">
+                            <a href="#">Comprar</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="cardShop">
+                        <div class="imgBx">
+                            <img src="/img/img6.png">
+                            <h2>kit 6</h2>
+                        </div>
+                        <div class="buy ">
+                            <a href="#">Comprar</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+        </section>
+
+        <div class="divider2"></div>
+
+        <section class="section" id="newsletter">
+            <div class="container">
+                <div class="percent">
+                    <img src="img/percent.svg">
+                </div>
+            </div>
+        </section>
+
+        <div class="divider1"></div>
+
+        <section class="section" id="new">
+            <div class="Alumni">
+                <h2 class="textalumni">Alumni Planner</h2>
+                <a href="#" class="buttona">ACESSAR</a>
+            </div>
+        </section>
+
+        <div class="divider2"></div>
+
+        <section class="section" id="membro">
+        <div class="box">
+            <span style="--i:1;"><img src="/img/card1.svg"></span>
+            <span style="--i:2;"><img src="/img/card1.svg"></span>
+            <span style="--i:3;"><img src="/img/card1.svg"></span>
+            <span style="--i:4;"><img src="/img/card1.svg"></span>
+            <span style="--i:5;"><img src="/img/card1.svg"></span>
+            <span style="--i:6;"><img src="/img/card1.svg"></span>
+            <span style="--i:7;"><img src="/img/card1.svg"></span>
+        </div>
+        </section>
+
+        <div class="divider1"></div>
+
+        <!-- footer -->
+        <footer id="footer">
+            <a class="logo logo-alt" href="#home">EDucas <img src="/img/Logoend.svg"></a>
+            <p>©2021 EDucas</p>
+            <p>Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.kit').src = anything;
+        }
+        function changeBgColor(color){
+            const gradient = document.querySelector('.gradient');
+            gradient.style.background = color;
+        }
+    </script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelector(".imgCard"),{
+		max: 25,
+		speed: 400,
+        glare:true,
+        "max-glare":1,
+	});
+    </script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 4,
+          spaceBetween: 20,
+          slidesPerGroup: 1,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+</body>
+</html>
